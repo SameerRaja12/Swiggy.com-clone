@@ -1,0 +1,58 @@
+.navbar-div{
+  background-color: #ff5200;
+  display: flex;
+  justify-content: space-between ;
+  height: 110px;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+  width: 780px;
+}
+.Swiggy-logo{
+  height: 48px;
+  width: 160px;
+  padding-left: 152px;
+  padding-top: 35px;
+}
+.get-the-app-button{
+  color: white;
+  font-family:roboto; 
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #ff5200;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+  border-width: 1px;
+  height: 55px;
+  width: 139px;
+  margin-right: 40px;
+}
+.sign-in-button{
+  font-family:roboto; 
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  background-color: black;
+  border-style: none;
+  border-color: white;
+  border-radius: 15px;
+  height: 55px;
+  width: 139px;
+  margin-right: 40px;
+}
+.p1{
+  font-weight: bold;
+  font-family:roboto; 
+  color: white;
+  margin-right: 25px;
+  font-size: 17px;
+}
+.p2{
+  font-weight: bold;
+  font-family: roboto;
+  color: white;
+  margin-right: 31px;
+  font-size: 17px;
+}

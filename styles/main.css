@@ -1,0 +1,41 @@
+.main-div{
+  background-color: #ff5200;
+  height: 690px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading{
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.heading-div{
+  width: 750px;
+}
+
+.left-img{
+  height: 500px;
+}
+
+.right-img{
+  height: 500px;
+}
+
+.location-menu{
+  height: 55px;
+  width: 260px;
+  color: grey;
+  border-style: none;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.search-bar{
+  height: 55px;
+  width: 460px;
+  color: grey;
+  border-style: none;
+  border-radius: 15px;
+}
