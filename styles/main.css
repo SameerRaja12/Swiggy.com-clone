@@ -3,16 +3,19 @@
   height: 690px;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 .heading{
   color: white;
   font-family: roboto;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
+  line-height: 45px;
 }
 .heading-div{
   width: 750px;
+  margin-top: 40px;
 }
 
 .left-img{
@@ -38,4 +41,111 @@
   color: grey;
   border-style: none;
   border-radius: 15px;
+}
+
+.centre-imgs{
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  z-index: 2;
+  margin-top: -400px;
+  margin-left: 160px;
+}
+.centre-img{
+  height: 350px;
+}
+
+
+
+
+.menu-heading{
+  margin-left: 160px;
+  margin-top: 180px;
+  z-index: 6;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+.menu-grid{
+  z-index: 5;
+  margin-right: 85px;
+  margin-left: 155px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+}
+
+.menu-grid-img{
+  height: 200px;
+}
+
+
+.res-img{
+  height: 200px;
+  width: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.res-main-grid{
+  margin-top: 60px;
+  margin-left: 130px;
+}
+.res-grid{
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.discount-button1{
+  background-color: rgb(14, 110, 75);;
+  color: whitesmoke;
+  border-style: none;
+  height: 32px;
+  width: 330px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 8px;
+}
+
+.discount-button2{
+  background-color: rgb(200, 249, 229);
+  color:  rgb(9, 79, 53);
+  border-style: none;
+  height: 32px;
+  width: 330px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 8px;
+}
+
+
+.table-booking-btn{
+  border-style: none;
+  border-radius: 13px;
+  font-size: 10px;
+  margin-left: 9px;
+}
+
+.diss-text{
+  margin-top : 5px;
+  font-size: 15px;
+  font-weight: 100px;
+  margin-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 125, 123);
+}
+
+.res-heading{
+  margin-left: 160px;
+  margin-top: 180px;
+  z-index: 6;
+  font-weight: bolder;
+  font-size: 20px;
 }
