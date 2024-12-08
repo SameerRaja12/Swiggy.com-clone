@@ -149,3 +149,62 @@
   font-weight: bolder;
   font-size: 20px;
 }
+
+.download-banner{
+  margin-top: 190px;
+}
+
+.app-download-banner{
+  width: 1600px;
+  height: 299px;
+}
+
+.delivery-cities-grid{
+  width: 700px;
+  margin-left: 220px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 22px;
+}
+
+.cities-btn{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: rgb(151, 149, 149);
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-weight: bold;
+  height: 42px;
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+}
+
+.delivery-heading{
+  margin-left: 220px;
+  margin-top: 180px;
+  z-index: 6;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+
+
+
+
+.footer{
+  background-color: lightgrey;
+  margin-top: 150px;
+  height: 520px;
+}
+
+.footer-img-div{
+  padding-top: 70px;
+  margin-left: 250px;
+  display: inline-block;
+}
